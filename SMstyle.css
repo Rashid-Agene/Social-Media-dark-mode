@@ -4,6 +4,33 @@
     padding: 0;
     font-family: 'Inter';
 }
+
+/* light mode  */
+.light-mode{
+    background-color: #fff ;
+}
+.light-mode header{
+    background-color: #F7F9FF;
+}
+.light-mode.social{
+    background-color: #F7F9FF;
+    color: #1D1F29;
+}
+.light-mode.social h1{
+    color: #1D1F29;
+}
+.light-mode.card{
+    background-color: #F1F3FA;
+}
+.light-mode.card h1{
+    color:#1D1F29 ;
+}
+.light-mode.can :hover{
+    background-color:#E1E4F0 ;
+}
+/* end of light mode */
+
+
 body{
     background-color: #1D1F29;
     overflow-x: hidden;
@@ -59,7 +86,10 @@ margin-top: 3px;
 .dark{
     background: none;
     border: none;
+    cursor: pointer;
 }
+
+
 .upperside{
     width: 100%;
     justify-content: center;
@@ -84,6 +114,7 @@ margin-top: 3px;
     background-color:#252B42;
     border-top: 4px solid #178FF5;
     border-radius: 4px;
+    cursor: pointer;
 
 }
 .box2{
@@ -95,6 +126,7 @@ margin-top: 3px;
     background-color:#252B42;
     border-top: 4px solid #1DA1F2 ;
     border-radius: 4px;
+    cursor: pointer;
 }
 .box3{
     width: 255px;
@@ -105,9 +137,9 @@ margin-top: 3px;
     background-color:#252B42;
     border-top: 4px solid transparent ;
     border-radius: 4px;
-    border-image: linear-gradient(100deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%);
+    border-image: linear-gradient(90deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%);
     border-image-slice: 1;
-
+    cursor: pointer;
 
 }
 .box4{
@@ -119,6 +151,7 @@ margin-top: 3px;
     background-color:#252B42;
     border-top: 4px solid #C4032B;
     border-radius: 4px;
+    cursor: pointer;
 
 
 }
@@ -227,6 +260,7 @@ margin-top: 3px;
     height: 125px;
     border-radius: 5px;
     background: #252B42;
+    cursor: pointer;
 }
 .sq2{
     justify-content: center;
@@ -235,6 +269,7 @@ margin-top: 3px;
     height: 125px;
     border-radius: 5px;
     background: #252B42;
+    cursor: pointer;
 }
 .sq3{
     justify-content: center;
@@ -243,6 +278,7 @@ margin-top: 3px;
     height: 125px;
     border-radius: 5px;
     background: #252B42;
+    cursor:pointer;
 }
 .sq4{
     justify-content: center;
@@ -251,6 +287,7 @@ margin-top: 3px;
     height: 125px;
     border-radius: 5px;
     background: #252B42;
+    cursor: pointer;
 }
 .sqs{
     margin-top: 1.1rem;
