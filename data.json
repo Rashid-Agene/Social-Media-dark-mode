@@ -1,0 +1,87 @@
+{
+    "followersCount":[
+       {
+            "name":"@nathanf",
+            "count":1987,
+            "follower":"FOLLOWERS",
+            "new":"12 Today"
+
+        },
+        {
+            "name":"@nathanf",
+            "count":454,
+            "follower":"FOLLOWERS",
+            "new":"99 Today"
+
+        },
+        {
+            "name":"@realnathanf",
+            "count":11,
+            "follower":"FOLLOWERS",
+            "new":"1099 Today"
+
+        },
+        {
+            "name":"@Nathan F",
+            "count":8239,
+            "follower":"SUBSCRIBERS",
+            "new": "3224 Today"
+
+        }
+    ],
+
+    "upOverview":[
+        {
+            "likes":"Page views",
+            "views":87,
+            "percent":"3%"
+
+        },
+        {
+            "likes":"Likes",
+            "views":52,
+            "percent":"2%"
+
+
+        },
+        {
+            "likes":"Likes",
+            "views":5426,
+            "percent":"2257%"
+
+        },
+        {
+            "likes":"Profile views",
+            "views":52,
+            "percent":"1375%"
+
+        }
+    ],
+    "lowOverview":[
+        {
+            "likes":"Retweet",
+            "views":117,
+            "percent":303
+
+        },
+        {
+            "likes":"Likes",
+            "views":507,
+            "percent":553
+
+        },
+        {
+            "likes":"Likes",
+            "views":107,
+            "percent":19
+
+
+        },
+        {
+            "likes":"Total views",
+            "views":1407,
+            "percent":12
+
+        }
+    ]
+}

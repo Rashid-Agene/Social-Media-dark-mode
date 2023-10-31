@@ -178,7 +178,7 @@ margin-top: 3px;
     letter-spacing: 5px;
     margin-top: 0.5rem;
 }
-.name{
+.name1{
     display: flex;
     justify-content: center;
     column-gap: 8px;
@@ -188,6 +188,7 @@ margin-top: 3px;
     font-weight: 700;
     line-height: normal;
 }
+
 .today{
     display: flex;
     justify-content: center;
@@ -197,7 +198,14 @@ margin-top: 3px;
     font-weight: 700;
     line-height: normal;
     margin-top: 1.5rem;
+    gap: 5px;
 
+}
+.new{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .box4 .red{
     display: flex;
@@ -208,6 +216,7 @@ margin-top: 3px;
     font-weight: 700;
     line-height: normal;
     margin-top: 1.5rem;
+    gap: 5px;
 
 }
 .over{
@@ -328,6 +337,7 @@ margin-top: 3px;
     font-weight: 700;
     line-height: normal;
     margin-top: 15px;
+    gap:5px;
 }
 .red{
     color: #DC414C;
