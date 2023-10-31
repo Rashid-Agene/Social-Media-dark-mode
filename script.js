@@ -62,10 +62,12 @@ function replaceCardContent(cardElement, data) {
   cardElement.querySelector(".count").textContent = data.count;
   cardElement.querySelector(".follower").textContent = data.follower;
   cardElement.querySelector(".new").textContent = data.new;
+  
+}
+function replaceCardContent1(cardElement,data){
   cardElement.querySelector(".likes").textContent = data.likes;
   cardElement.querySelector(".views").textContent = data.views;
 }
-
 // Fetch and replace card data for container 1
 const can1 = document.querySelectorAll(".nath");
 fetch("data.json")
@@ -79,11 +81,11 @@ fetch("data.json")
     const can2 = document.querySelectorAll(".up .sqs");
     const upOverview = data.upOverview;
     upOverview.forEach((cardData, index) => {
-      replaceCardContent(can2[index], cardData);
+      replaceCardContent1(can2[index], cardData);
     });
     const can3 = document.querySelectorAll(".low .sqs");
     const lowOverview = data.lowOverview;
     lowOverview.forEach((cardData, index) => {
-      replaceCardContent(can3[index], cardData);
+      replaceCardContent1(can3[index], cardData);
     });
   });
